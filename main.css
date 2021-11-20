@@ -504,15 +504,15 @@ hr{
 }
 
 .project-img{
-    flex: 0.3;
+    flex: 1;
 }
 
 .project-img1{
-    flex: 0.2;
+    flex: 1;
 }
 
 .project-description{
-    flex: 0.3;
+    flex: 1;
 }
 
 .project-description h2{
