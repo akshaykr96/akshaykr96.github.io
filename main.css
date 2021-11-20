@@ -340,7 +340,7 @@ margin: 1.5rem 0;
     max-width: 80rem;
     margin: auto;
     scroll-snap-align: start end;
-    background: url("images/BG1.webp") top no-repeat;
+    background: url("Images/BG1.webp") top no-repeat;
     background-clip: padding-box;
     position: relative;
     border-radius:0 0 50% 50%;
