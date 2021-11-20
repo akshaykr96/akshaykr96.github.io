@@ -471,19 +471,19 @@ hr{
 
 /* Projects */
 
-.projects{
+.project{
 
     padding: 3rem 0;
     min-height: 100vh;
     min-width: 70rem;
     margin: auto;
-    scroll-snap-align: start;
+    scroll-snap-align: start end;
 }
 .has-margin-right{
 
     margin: 0 3rem 0 0;
 }
-.projects h2{
+.project h2{
    
     font-size: 4rem;
     margin: 2rem 0;
@@ -610,8 +610,9 @@ footer a{
 
         font-size: 3rem;
     }
-    .projects h2{
-            margin: 0;}
+    .project h2{
+            margin: 0;
+        }
    
     .about{
 
@@ -646,7 +647,7 @@ footer a{
     }
 
     .title-heading{
-        margin: 0;
+        margin: auto;
     }
 
     .experience-tiers{
@@ -654,10 +655,12 @@ footer a{
     }
 
     .project-item{
+        margin: auto;
         flex-direction: column;
         align-items: flex-start;
         padding: 2rem;
         box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
+        flex-shrink: 3;
     }
 
     .project-img{
