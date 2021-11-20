@@ -488,8 +488,8 @@ hr{
     font-size: 4rem;
     margin: 2rem 0;
     color: white;
-    text-shadow: rgb(75, 99, 80) 0px 0px 3px;
-    -webkit-font-smoothing: antialiased;
+      /*text-shadow: rgb(75, 99, 80) 0px 0px 3px;
+    -webkit-font-smoothing: antialiased;*/
     
 }
 
