@@ -215,7 +215,7 @@ margin: 1.5rem 0;
     height: 100vh;
     background-color: rgba(24, 29, 41, 1);
     background: 
-    url("images/BG1.webp") center no-repeat;
+    url("Images/BG1.webp") center no-repeat;
     background-size: cover;
     position: relative;
     scroll-snap-align: start end;
