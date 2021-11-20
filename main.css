@@ -471,6 +471,108 @@ hr{
 
 /* Projects */
 
+.projects{
+
+    padding: 3rem 0;
+    min-height: 100vh;
+    min-width: 70rem;
+    margin: auto;
+    scroll-snap-align: start end;
+    
+}
+.has-margin-right{
+
+    margin: 0 3rem 0 0;
+}
+
+.project-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 1.45rem 5rem 1.45rem;
+   /* box-shadow: 0px 0px 67px -7px rgba(75, 99, 80, 0.5);
+    padding: 2rem;
+    border-radius: 21px;*/
+} 
+.projects h2{
+   
+    font-size: 4rem;
+    margin: 2rem 0;
+    color: white;
+      /*text-shadow: rgb(75, 99, 80) 0px 0px 3px;
+    -webkit-font-smoothing: antialiased;*/
+    
+}
+
+
+
+.project-img{
+    flex: 0.3;
+}
+
+.project-img1{
+    flex: 0.2;
+}
+
+.project-description{
+    flex: 0.3;
+}
+
+.project-description h2{
+    font-size: 3rem;
+    margin: 2rem 0;
+    color: white;
+    text-shadow: rgb(50, 75, 55) 0px 0px 3px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.project-description p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+}
+
+.project-link{
+
+    display: inline-block;
+    margin: 2rem 0;
+    font-size: 1.4rem;
+}
+
+/* Contact */
+
+.contact{
+
+    width: 100%;
+    min-height: 100vh;
+    max-width: 70rem;
+    margin: auto;
+    scroll-snap-align: start end;
+    padding-top: 4rem;
+}
+
+.contact h2{
+
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.contact p{
+
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0.9rem;
+}
+
+.contact .container {
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
 
 
 /* Footer */
@@ -500,4 +602,133 @@ footer a{
 .footer-social a{
     margin: 0 0.5rem;
     font-size: 2rem;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 750px){
+
+    .main-message h3{
+
+        font-size: 3rem;
+    }
+    .projects h2{
+            margin: 0;
+            font-size: 3rem;
+        }
+   
+    .about{
+
+        border-radius:0 0 0 0;
+    }
+
+    .main-message p {
+        font-size: 1.3rem;
+    }
+    .about p{
+
+        font-size: 1.3rem;
+    }
+    .main-message p{
+
+        font-size: 1.3rem;
+    }
+    .project-item p{
+        font-size: 1.3rem;
+    }
+
+    .contact p{
+        font-size: 1.3rem;
+    }
+    .about .container{
+
+        flex-direction: column;
+    }
+
+    .p{
+        font-size: 1.3rem;
+    }
+
+    .title-heading{
+        margin: auto;
+    }
+
+    .experience-tiers{
+        gap: 0;
+    }
+
+    .project-item{
+        margin: auto;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 2rem;
+        box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
+        min-width: 0;
+    }
+
+    .project-img{
+
+        width: 20rem;
+    }
+    .project-img1{
+
+        width: 20rem;
+    }
+}
+
+@media (max-width: 665px){
+
+    .main-message{
+        top: 55%;
+
+    }
+    .main-message h2{
+
+        letter-spacing: 1rem;
+        font-size: 1.5rem;
+        width: 27ch;
+    }
+    .main-message h3{
+        font-size: 2rem;
+    }
+    .main-message p{
+        font-size: 1.3rem;
+    }
+    
+    .btn{
+
+        border-radius: 0.9rem;
+        padding: 0.9rem 0.9rem;
+    }
+
+    .about-text-box h2{
+
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .about-text-box p{
+
+        margin : 0 0 2.45rem;
+    }
+
+    .title-heading h2{
+
+        margin-bottom: 2rem;
+    }
+
+    .title-heading p{
+
+        font-size: 1.3rem;
+    }
+
+    .contact .container{
+        flex-direction: column;
+    }
+
+    footer,
+    footer p{
+        font-size: 1.2rem;
+    }
 }
