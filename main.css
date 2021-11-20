@@ -659,6 +659,7 @@ footer a{
         align-items: flex-start;
         padding: 2rem;
         box-shadow: 0 20px 30px 0 rgba(212, 255, 255, 0.15);
+        width: 20rem;
     }
 
     .project-img{
