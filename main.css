@@ -472,8 +472,12 @@ hr{
     max-width: 90rem;
     margin: auto;
     scroll-snap-align: start end;
-    
 }
+
+.title-heading h2{
+    font-size: 4rem;
+}
+
 .has-margin-right{
 
     margin: 0 3rem 0 0;
@@ -484,10 +488,11 @@ hr{
     align-items: center;
     justify-content: center;
     margin: 0 1.45rem 5rem 1.45rem;
-    box-shadow: -2px 28px 64px 3px #324B37;
+    box-shadow: -2px 28px 100px 40px #324B37;
     padding: 3rem;
     background-color: rgb(24, 29, 41);
 }
+
 
 
 .project-img{
