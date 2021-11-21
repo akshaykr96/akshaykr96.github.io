@@ -616,21 +616,9 @@ footer a{
     .project-img1{
         width: 12rem;
     }
-    
+    .about{
+        border-radius:0 0 0 0;
     }
-    
-
-    /* .projects h2{
-        margin: 0;
-        font-size: 3rem;
-    }
-
-.about{
-
-    border-radius:0 0 0 0;
-} */
-
-}
 
 @media (max-width: 665px){
 
