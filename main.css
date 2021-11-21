@@ -336,7 +336,7 @@ margin: 1.5rem 0;
 .about{
 
     width: 100%;
-    min-height:90vh;
+    min-height:95vh;
     max-width: 80rem;
     margin: auto;
     scroll-snap-align: start end;
@@ -421,13 +421,6 @@ hr{
     font-size: 4rem;
     margin: 0.5rem 0 1rem 0;
 }
-
-.about-text-box h2{
-
-    
-    margin-bottom: 20px;
-}
-
 .title-heading p{
 
     font-family: "Poppins", sans-serif;
@@ -474,7 +467,7 @@ hr{
 .projects{
 
     padding: 3rem 0;
-    min-height: 100vh;
+    min-height: 100vh; 
     min-width: 70rem;
     margin: auto;
     scroll-snap-align: start end;
@@ -490,16 +483,16 @@ hr{
     align-items: center;
     justify-content: center;
     margin: 0 1.45rem 5rem 1.45rem;
-   /* box-shadow: 0px 0px 67px -7px rgba(75, 99, 80, 0.5);
-    padding: 2rem;
-    border-radius: 21px;*/
+    box-shadow: 0px 0px 67px -7px rgba(75, 99, 80, 0.5);
+
+    border-radius: 21px;
 } 
 .projects h2{
    
     font-size: 4rem;
     margin: 2rem 0;
     color: white;
-      /*text-shadow: rgb(75, 99, 80) 0px 0px 3px;
+    \text-shadow: rgb(75, 99, 80) 0px 0px 3px;
     -webkit-font-smoothing: antialiased;*/
     
 }
@@ -623,24 +616,6 @@ footer a{
         border-radius:0 0 0 0;
     }
 
-    .main-message p {
-        font-size: 1.3rem;
-    }
-    .about p{
-
-        font-size: 1.3rem;
-    }
-    .main-message p{
-
-        font-size: 1.3rem;
-    }
-    .project-item p{
-        font-size: 1.3rem;
-    }
-
-    .contact p{
-        font-size: 1.3rem;
-    }
     .about .container{
 
         flex-direction: column;
