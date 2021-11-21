@@ -462,6 +462,7 @@ hr{
     font-family: "Poppins", sans-serif;
 }
 
+
 /* Projects */
 
 .projects{
@@ -482,40 +483,38 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 1.45rem 5rem 1.45rem;
-    box-shadow: 0px 0px 67px -7px rgba(75, 99, 80, 0.5);
+    margin: 0 1.45rem 5rem 1.45rem;}
 
-    border-radius: 21px;
-} 
 .projects h2{
    
     font-size: 4rem;
     margin: 2rem 0;
     color: white;
     text-shadow: rgb(75, 99, 80) 0px 0px 3px;
-    -webkit-font-smoothing: antialiased;*/
+    -webkit-font-smoothing: antialiased;
     
 }
 
 
-
 .project-img{
-    flex: 0.3;
+    flex: 1;
 }
 
 .project-img1{
-    flex: 0.2;
-}
-
-.project-description{
     flex: 0.3;
 }
 
+.project-description{
+    flex: 1;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 .project-description h2{
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem 0;
     color: white;
-    text-shadow: rgb(50, 75, 55) 0px 0px 3px;
+    text-shadow: rgb(50, 75, 55) 0px 0px 5px;
     -webkit-font-smoothing: antialiased;
 }
 
