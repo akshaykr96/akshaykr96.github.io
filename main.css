@@ -621,30 +621,6 @@ footer a{
         align-items: flex-start;
         padding: 2rem;
     }
-
-
-
-
-    .projects h2{
-            margin: 0;
-            font-size: 3rem;
-        }
-   
-    .about{
-
-        border-radius:0 0 0 0;
-    }
-
-   
-
-    
-
-    
-
-    
-
-    
-
     .project-img{
 
         width: 20rem;
@@ -653,6 +629,19 @@ footer a{
 
         width: 20rem;
     }
+
+    
+
+    /* .projects h2{
+        margin: 0;
+        font-size: 3rem;
+    }
+
+.about{
+
+    border-radius:0 0 0 0;
+} */
+
 }
 
 @media (max-width: 665px){
