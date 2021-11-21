@@ -507,7 +507,10 @@ hr{
     text-shadow: rgb(50, 75, 55) 0px 0px 5px;
     -webkit-font-smoothing: antialiased;
 }
-
+.project-description p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.4rem;
+}
 
 .project-link{
     display: inline-block;
